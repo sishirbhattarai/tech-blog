@@ -17,6 +17,7 @@ const postData = [
     content: 'A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript. Maintain your code quality with ease.',
     user_id: 3
   }
+  
 ];
 
 const seedPosts = () => Post.bulkCreate(postData);
