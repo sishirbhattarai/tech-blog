@@ -46,6 +46,7 @@ User.init(
       return updatedUserData;
        },
      },
+    //timestamps false will disable created_at and updated_at column on user table. 
     sequelize,
     timestamps: false,
     freezeTableName: true,

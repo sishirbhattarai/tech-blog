@@ -13,6 +13,11 @@ AS A developer who writes about tech
 I WANT a CMS-style blog site
 SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ```
+## Github link
+https://github.com/sishirbhattarai/tech-blog
+
+## Heroku Link
+https://hidden-coast-20490.herokuapp.com/
 
 ## Acceptance Criteria
 
