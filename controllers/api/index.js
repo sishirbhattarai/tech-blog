@@ -6,7 +6,7 @@ const userRoutes = require('./userRoutes');
 
 //telling router to use api routes
 router.use('/users', userRoutes);
-router.use('/users', postRoutes);
-router.use('/users', commentRoutes);
+router.use('/posts', postRoutes);
+router.use('/comments', commentRoutes);
 
 module.exports = router;
