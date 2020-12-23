@@ -8,7 +8,7 @@ router.get('/', withAuth, async (req, res) => {
 
     try {
 
-        const postData = await Post.findAll ({
+        const dbPostData = await Post.findAll ({
             attributes: [
                 'id',
                 'title',
