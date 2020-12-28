@@ -1,8 +1,8 @@
 :root {
-    --primary: rgb(197, 190, 181);
+    --primary: rgb(226, 163, 81);
     --secondary: #9caea9;
     --tertiary: #788585;
-    --light-dark: #6f6866;
+    --light-dark: #dbd0cc;
     --dark: black;
     --border-radius: .3rem;
   }
@@ -15,7 +15,7 @@
     background-color: var(--primary);
     margin: 0;
     padding: 0;
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: cursive;
     color: var(--dark);
     line-height: 1.5;
     font-size: 24px;
@@ -44,8 +44,8 @@
   }
   
   main {
-    margin: 20px auto;
-    width: 94%;
+    margin: 2px auto;
+    width: 75%;
   }
 
   .wrapper {
@@ -60,6 +60,9 @@
   p {
     font-size: 1.2rem;
   }
+
+
+  
   
    .btn {
     font-size: 1.3rem;
@@ -79,15 +82,12 @@
   
    .btn:hover {
     color: var(--primary);
-    background-color: var(--tertiary);
+    background-color: green;
     transform: translate(0, 0);
     box-shadow: 2px 2px var(--dark);
   }
   
-  .btn-inline {
-    display: inline;
-  }
-  
+ 
   .btn-back {
     border-radius: var(--border-radius);
     color: var(--primary);
@@ -155,27 +155,20 @@
     background-color: rgba(255,255,255, 1);
     border-radius: var(--border-radius);
   }
-  
-  .icon-danger {
-    color: rgb(255, 70, 70);
-  }
-  
-  .icon-success {
-    color: rgb(29, 153, 255);
-  }
+
   
   /* CARDS */
   .card {
-    margin: 0 0 20px 0;
+    margin: 2rem;
     border: 2px solid var(--dark);
     border-radius: var(--border-radius);
   }
   
   .card-header {
     color: var(--primary);
-    background-color: var(--dark);
-    padding: 1%;
-    border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
+    background-color: brown;
+    padding: 1rem;
+   
   }
   
   .card-body {
