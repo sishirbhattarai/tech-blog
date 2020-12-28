@@ -77,6 +77,7 @@ router.get('/:id', (req, res) => {
   });
 
 // creating a post
+//applying withAuth
 router.post('/', withAuth, (req, res) => {
     // create 1 post
     Post.create({ 
