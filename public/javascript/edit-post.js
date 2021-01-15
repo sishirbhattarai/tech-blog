@@ -29,3 +29,5 @@ async function editFormHandler(event) {
       }
 
 }
+
+document.querySelector('.btn').addEventListener('click', editFormHandler);
